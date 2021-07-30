@@ -111,3 +111,97 @@ body{
 /* SECTION 4 */
 /* SECTION 5 */
 /* SECTION 6 */
+/* FOOTER */
+
+#my-name{
+    color:rgb(12, 11, 11);
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top:40px;
+    margin-bottom: 0.5rem; 
+    letter-spacing: 0.1rem;;
+}
+.list
+{
+    list-style: none;
+    padding: 0px; 
+    font-size:20px;
+}
+.center
+{
+    text-align:center;
+}
+.list li{
+    display : inline-block;
+    margin: 20px 20px 20px 0px;
+    background-color: black;
+    border-radius: 12px;
+    border: 4px;
+   
+}
+.social-icons li a i {
+    padding:8px;
+   background-color:  rgb(252, 195, 10);
+    color: rgb(22, 21, 21);
+    border-radius:12px;
+    font-size: 1 rem;
+}
+.social-icons li a i:hover{
+    box-shadow: 0px 0px 6px 4px rgb(20, 18, 18);
+    
+}
+.footer
+{
+    background-color: rgb(252, 195, 10);
+    color: rgb(10, 9, 9);
+    padding: 25px;
+    font-size: medium;
+    height: auto;
+}
+
+.foot{
+    width: 420px;
+    float: left;
+    font-family: sans-serif;
+
+}
+
+.foot>ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.foot>ul>li>a{
+    color: rgb(0, 0, 0);
+     margin-bottom: 5px;
+    display: block;
+    text-decoration: none;
+    font-size: medium;
+
+}
+
+.footer address p{
+    font-size: medium;
+}
+
+.footer address p>a{
+    color: teal;
+}
+
+.copy
+{
+    padding: 15px;
+    background-color:  rgb(5, 3, 3);
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.copy p{
+    margin: 0px;
+}
+
+.clearfix{
+    clear: both;
+}
