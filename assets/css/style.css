@@ -3,7 +3,7 @@ p {
 }
 
 body{
-  background-color:rgb(14, 14, 61);
+  background-color:rgb(245, 245, 250);
 }
 
 /* SECTION 1 */
@@ -71,8 +71,7 @@ a{
 .hash :hover  .list ul{
     display: block;
     margin-left: 0px;
-   margin : 10px
-}
+   }
 .list a{
     margin: 10px 0px;
     text-align: left;
@@ -82,10 +81,10 @@ a{
     border-bottom: 0px;
 }
 
-.list li{
+/*.list li{
     margin: 10px;
 
-}
+}*/
 /* SECTION 2 */
 .Campus--Drive--Section {
   border-radius: 12px;
