@@ -3,7 +3,7 @@ p {
 }
 
 body{
-  background-color:rgb(14, 14, 61);
+  /* background-color:rgb(14, 14, 61); */
 }
 
 /* SECTION 1 */
@@ -16,7 +16,7 @@ body{
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
-  background-color:rgb(253, 253, 167);
+  background-color: rgb(252, 195, 10);
   margin:2vmax;
 }
 
@@ -38,7 +38,7 @@ body{
 }
 
 .Campus--Drive--Section .heading button:hover {
-  background-color: orange;
+  background-color: rgb(252, 195, 10);
   font-size: 4vmin;
   padding: 1vmin;
   border-radius: 12px;
