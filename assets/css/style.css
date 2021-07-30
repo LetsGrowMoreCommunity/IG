@@ -187,6 +187,41 @@ a{
 
 /* SECTION 3 */
 /* SECTION 4 */
+
+/* Terms*/
+.back{
+    background-color:  rgb(252, 195, 10);;
+}
+.terms
+{
+    margin:5% 10%;
+    position: center;
+    background-color: blanchedalmond;
+    padding: 2% 3%; 
+     color: rgb(22, 21, 21);
+     width:74%; 
+     font-size:medium;
+     min-width:150px;
+    font-family: Verdana, BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.terms h1{
+    background-color: black;
+    color: cornsilk;
+    padding: 1% 1%;
+}
+
+.terms p{
+    padding: 1% 1%;
+    overflow:visible;
+   
+}
+
+@media only screen and (max-width: 400px) {
+    /* For mobile phones: */
+    [class*="terms"] {
+     font-size: small;
+    }
+  }
 /* SECTION 5 */
 /* SECTION 6 */
 /* FOOTER */
