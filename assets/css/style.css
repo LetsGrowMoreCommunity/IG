@@ -1,5 +1,112 @@
+p {
+  margin: 0;
+}
+
+body{
+  background-color:rgb(14, 14, 61);
+}
+
 /* SECTION 1 */
 /* SECTION 2 */
+.Campus--Drive--Section {
+  border-radius: 12px;
+  min-height: 50vmin;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  background-color:rgb(253, 253, 167);
+  margin:2vmax;
+}
+
+.Campus--Drive--Section .heading {
+  width: 95%;
+  margin-top: 2vmin;
+  display: flex;
+  font-size:5vmin;
+  justify-content: space-between;
+}
+
+.Campus--Drive--Section .heading button {
+  background-color: white;
+  font-size: 4vmin;
+  padding: 1vmin;
+  border-radius: 12px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.Campus--Drive--Section .heading button:hover {
+  background-color: orange;
+  font-size: 4vmin;
+  padding: 1vmin;
+  border-radius: 12px;
+  border: 1px solid black;
+}
+.post--box--all {
+  align-items: center;
+  display: flex;
+  overflow-x: scroll;
+  width: 95%;
+}
+
+.post--box {
+  background-color:white;
+  margin: 2vmax;
+  min-height: 30vmin;
+  height: fit-content;
+  border: 1px solid black;
+  border-radius: 12px;
+  min-width: 50vmin;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 1px 1px 3px 3px white;
+}
+
+.post--box div {
+  overflow-y: auto;
+}
+
+.post--box p:first-child {
+
+  font-size: 4vmin;
+  padding: 1vmin;
+}
+
+.post--box p:nth-child(2) {
+  /* background-color: aqua; */
+  border-bottom: 1px solid black;
+  font-size: 2vmin;
+  padding: 1vmin;
+}
+
+.post--box p:nth-child(3) {
+  /* background-color: aqua; */
+  font-size: 2vmin;
+  padding: 1vmin;
+}
+
+.post--box button {
+  background-color: white;
+  width: 7vmax;
+  height: 4vmin;
+  margin:1vmax;
+  border-radius: 12px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.post--box button:hover {
+  background-color: orange;
+  width: 7vmax;
+  height: 4vmin;
+  margin:1vmax;
+  border-radius: 12px;
+  border: 1px solid black;
+}
+
 /* SECTION 3 */
 /* SECTION 4 */
 /* SECTION 5 */
