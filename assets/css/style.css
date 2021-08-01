@@ -146,7 +146,7 @@ a{
 }
 
 #navmenu {
-  display:none;
+  display: none;
 }
 /*.list li{
     margin: 10px;
@@ -253,47 +253,6 @@ a{
 
 /* SECTION 3 */
 /* SECTION 4 */
-
-/* Terms*/
-.back{
-    background-color:  rgb(252, 195, 10);;
-}
-.terms
-{
-    margin:5% 10%;
-    position: center;
-    background-color: blanchedalmond;
-    padding: 2% 3%; 
-     color: rgb(22, 21, 21);
-     width:74%; 
-     font-size:medium;
-     min-width:150px;
-    font-family: Verdana, BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-.terms h1{
-    background-color: black;
-    color: cornsilk;
-    padding: 1% 1%;
-}
-
-.terms p{
-    padding: 1% 1%;
-    overflow:visible;
-   
-}
-
-.terms-file a:hover
-{
-    background-color: black;
-    color:cornsilk;
-}
-
-@media only screen and (max-width: 400px) {
-    /* For mobile phones: */
-    [class*="terms"] {
-     font-size: small;
-    }
-  }
 /* SECTION 5 */
 /* SECTION 6 */
 /* FOOTER */
@@ -338,42 +297,56 @@ a{
 }
 .footer {
   background-color: rgb(252, 195, 10);
-  color: rgb(10, 9, 9);
-  padding: 25px;
+  color: black;
   font-size: medium;
   height: auto;
+  display: flex;
+  justify-content: space-around;
 }
 
 .foot {
   width: 30%;
-  float: left;
-  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin:1vmin;
+  padding:1vmin;
 }
 
-.foot > ul {
-  margin: 0px;
-  padding: 0px;
-  list-style-type: none;
+.foot h3{
+  border-bottom:  2px solid orangered; 
 }
-
-.foot > ul > li > a {
-  color: rgb(0, 0, 0);
-  margin-bottom: 5px;
-  display: block;
+.foot a {
+  font-size:3vmin;
+  padding: 1vmin;
+  color:black;
   text-decoration: none;
-  font-size: medium;
 }
 
-.footer address p {
-  font-size: medium;
+.foot a:first-child:hover{
+  font-size:3vmin;
+  padding: 1vmin;
+  color:black;
+  text-decoration: none;
+  background-color:rgb(252, 195, 10);
+  border: 0px solid orangered;
 }
 
-.footer address p > a {
-  color: teal;
+.foot a:hover{
+  font-size:3vmin;
+  padding: 1vmin;
+  background-color:white;
+  border-radius: 12px;
+  border: 2px solid orangered;
+  color:black;
+  text-decoration: none;
 }
-
+.clearfix {
+  clear: both;
+} 
 .copy {
-  padding: 15px;
+  padding: 2vmin;
   background-color: rgb(5, 3, 3);
   font-family: sans-serif;
   color: white;
@@ -382,10 +355,6 @@ a{
 
 .copy p {
   margin: 0px;
-}
-
-.clearfix {
-  clear: both;
 }
 
 @media screen and (max-width: 812px) {
@@ -464,10 +433,27 @@ a{
     right: 0;
     top: 15vmin;
   }
+  .footer {
+    background-color: rgb(252, 195, 10);
+    color: black;
+    font-size: medium;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .foot {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .foot a {
+    font-size:4vmin;
+    padding: 1vmin;
+  }
 }
-
-
-
-
-
-
